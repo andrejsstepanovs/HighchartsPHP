@@ -1,0 +1,30 @@
+{
+    "name": "wormhit/HighchartsPHP",
+    "description": "Highcharts module for Zend Framework 2 based on HighchartsPHP",
+    "license": "Apache-2.0",
+    "type": "library",
+    "keywords": [
+        "highcharts",
+        "zf2",
+        "zend framework 2"
+    ],
+    "homepage": "https://github.com/wormhit/HighchartsPHP",
+    "authors": [
+        {
+            "name": "Andrejs Stepanovs",
+            "email": "andrejsstepanovs@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "zendframework/zendframework": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Highcharts": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
