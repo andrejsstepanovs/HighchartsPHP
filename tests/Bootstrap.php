@@ -1,6 +1,6 @@
 <?php
 
-namespace Db;
+namespace HighchartsPHP;
 
 use Zend\Loader\AutoloaderFactory;
 use Zend\Mvc\Service\ServiceManagerConfig;
@@ -38,7 +38,7 @@ class Bootstrap
                 'module_paths' => $zf2ModulePaths,
             ),
             'modules' => array(
-                'Db'
+                'HighchartsPHP'
             )
         );
 

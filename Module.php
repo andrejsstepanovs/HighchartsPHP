@@ -2,10 +2,13 @@
 
 namespace HighchartsPHP;
 
-
+/**
+ * Class Module
+ *
+ * @package HighchartsPHP
+ */
 class Module
 {
-
     public function getAutoloaderConfig()
     {
         return array(
